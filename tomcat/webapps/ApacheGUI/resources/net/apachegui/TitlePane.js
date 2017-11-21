@@ -1,0 +1,2 @@
+//>>built
+define("net/apachegui/TitlePane","dojo/_base/declare dijit/TitlePane dojo/_base/kernel dojo/_base/lang dojo/_base/array dijit/registry".split(" "),function(b,e,f,g,c,d){return b("net.apachegui.TitlePane",[dijit.TitlePane],{toggle:function(){this.inherited(arguments);this.open&&c.forEach(d.findWidgets(this.domNode),function(a){a.resize&&a.resize()})}})});
